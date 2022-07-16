@@ -1,14 +1,24 @@
+:host {
+  display: block;
+  width: 100%;
+}
 button {
   all: unset;
-  padding: 0 24px;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 16px;
-  line-height: 36px;
-  background-color: #06f;
-  transition: all 0.15s ease;
+  display: block;
+  box-sizing: border-box;
+  padding: 7 16px;
+  border: 1px solid #c6cacc;
+  border-radius: 2px;
+  color: #333;
+  font: 600 14px/20px Inter, sans-serif;
+  text-align: center;
+  background-color: #fff;
+  transition: all 0.3s ease-in;
   cursor: pointer;
   &:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid #1a73e8;
+    color: #fff;
+    background-color: #1a73e8;
+    transition: all 0.15 ease-out;
   }
 }

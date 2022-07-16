@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { environment } from 'src/environments/environment';
+import { product, products } from './data/product.data';
+import { Product } from './types/card';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +8,12 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'eshop';
-  inCart = 0;
-  apiUrl = `${environment.api}`;
+  title = 'Angular';
+  i = 0;
+  product: Product = products[this.i];
 
-  addToCart() {
-    this.inCart += 1;
-  }
-  removeFromCart() {
-    return this.inCart > 0 ? (this.inCart -= 1) : this.inCart;
+  next() {
+    this.i = this.i < products.length - 1 ? this.i + 1 : 0;
+    this.product = products[this.i];
   }
 }

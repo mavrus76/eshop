@@ -1,7 +1,6 @@
-<app-button text="Удалить из корзины" (click)="removeFromCart()"></app-button>
-<div>В корзине {{inCart}} шт.</div>
-<app-button text="Добавить в корзину" (click)="addToCart()"></app-button>
-<div>
-  Api Url:
-  {{apiUrl}}
+<div class="content">
+  <div>
+    <button (click)="next()">Next</button>
+    <app-card [product]="product"></app-card>
+  </div>
 </div>
