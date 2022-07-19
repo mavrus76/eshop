@@ -6,7 +6,7 @@ import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./button.component.scss'],
 })
 export class ButtonComponent implements OnInit {
-  @Input() value = ' Добавить в корзину';
+  @Input() value = ' В корзину';
 
   constructor() {}
 
