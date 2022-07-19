@@ -54,6 +54,6 @@ export class RatesComponent implements OnInit {
 
   ngOnInit(): void {}
   isChecked(value: any): string {
-    return this.rating === value ? '' : this.rating;
+    return this.rating === value ? '' : null!;
   }
 }

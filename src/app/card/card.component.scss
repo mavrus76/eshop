@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  max-width: 320px;
+  max-width: 300px;
   min-height: 598px;
   padding: 24px 24px 48px;
   outline: 1px solid #e3e5e5;
@@ -12,7 +12,7 @@
 }
 .card__inner {
   position: relative;
-  width: 250px;
+  width: 100%;
 }
 .card__rates {
   display: flex;
@@ -26,11 +26,11 @@
   color: #999;
 }
 .card__gallery {
-  width: 250px;
+  width: 100%;
   margin: 0 auto;
 }
 .card__gallery-image {
-  width: 250px;
+  width: 100%;
   min-height: 250px;
 }
 .card__color-options {

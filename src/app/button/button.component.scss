@@ -2,15 +2,15 @@
   display: block;
   width: 100%;
 }
-button {
+.button {
   all: unset;
   display: block;
   box-sizing: border-box;
-  padding: 7 16px;
-  border: 1px solid #c6cacc;
-  border-radius: 2px;
-  color: #333;
-  font: 600 14px/20px Inter, sans-serif;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: #555;
+  font: 500 16px/1 Inter, sans-serif;
   text-align: center;
   background-color: #fff;
   transition: all 0.3s ease-in;

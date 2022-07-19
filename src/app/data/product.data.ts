@@ -74,8 +74,8 @@ export const products: Array<Product> = [
     title: 'Смартфон Google Pixel 3 64GB',
     image: 'https://cdn1.ozone.ru/s3/multimedia-9/6164669013.jpg',
     rating: {
-      value: 5,
-      reviews: 4,
+      value: 3,
+      reviews: 5,
     },
     price: {
       value: 24540,
@@ -107,12 +107,12 @@ export const products: Array<Product> = [
     title: 'Смартфон Apple iPhone Xr 128GB',
     image: 'https://cdn1.ozone.ru/s3/multimedia-p/6025924669.jpg',
     rating: {
-      value: 5,
-      reviews: 4,
+      value: 4,
+      reviews: 7,
     },
     price: {
       value: 54990,
-      discount: 0,
+      // discount: 0,
     },
     deliveryOptions: {
       delivery: '19.07',

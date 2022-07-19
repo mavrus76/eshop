@@ -1,0 +1,12 @@
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.button svg path {
+  transition: all 0.3s ease;
+}
+.button:hover svg path,
+.button--active svg path {
+  fill: red;
+}

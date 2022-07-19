@@ -20,8 +20,8 @@
     <app-price [price]="product.price!"></app-price>
 
     <div class="card__actions">
-      <app-button-icon [active]="isFavorite" (click)="toggleFavorite()"></app-button-icon>
       <app-button></app-button>
+      <app-button-icon [active]="isFavorite" (click)="toggleFavorite()"></app-button-icon>
     </div>
     <app-delivery-options [options]="product.deliveryOptions!"></app-delivery-options>
   </div>
